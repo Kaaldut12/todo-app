@@ -1,16 +1,97 @@
-# React + Vite
+# 📝 Todo App (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and clean Todo Application built using **React**.
+This app allows users to manage daily tasks with features like adding, deleting, marking complete, filtering, and persistent storage using localStorage.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+* ➕ Add new tasks
+* ❌ Delete tasks
+* ✅ Mark tasks as completed
+* 🔍 Filter tasks (All / Completed / Pending)
+* 💾 Data persistence using **localStorage**
+* 🧹 Clear all tasks
+* ⚡ Instant UI updates (React state)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **React (useState, useEffect)**
+* **JavaScript (ES6+)**
+* **CSS**
+* **LocalStorage API**
+
+---
+
+## 📂 Project Structure
+
+```
+src/
+ ├── App.jsx
+ ├── index.css
+ └── main.jsx
+```
+
+---
+
+## 🧠 Concepts Used
+
+* State management with `useState`
+* Side effects with `useEffect`
+* Controlled components (form inputs)
+* Conditional rendering
+* Array methods (`map`, `filter`)
+* Data persistence with localStorage
+
+---
+
+
+
+## ⚙️ Installation & Setup
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/todo-app.git
+
+# Navigate into project
+cd todo-app
+
+# Install dependencies
+npm install
+
+# Run the app
+npm run dev
+```
+
+---
+
+## 🌐 Live Demo
+
+*Add your deployed link here (Vercel / Netlify)*
+
+---
+
+## 📈 Future Improvements
+
+* ✏️ Edit task feature
+* 🎨 Better UI (Tailwind / Material UI)
+* 📱 Responsive design
+* 🔐 User authentication
+
+---
+
+## 🙌 Author
+
+* Abhay Patel
+* GitHub: https://github.com/Kaaldut12
+
+---
+
+## 📄 License
+
+This project is open source and available under the MIT License.
+
+---
