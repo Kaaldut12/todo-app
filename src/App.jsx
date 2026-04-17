@@ -68,8 +68,8 @@ const App = () => {
 
 
   return (
-    <div className='min-h-screen bg-gradient-to-br from-slate-900 via-indigo-950 to-fuchsia-900 px-4 py-10'>
-      <div className='mx-auto w-full max-w-3xl rounded-[2rem] border border-white/10 bg-white/95 p-8 shadow-2xl shadow-indigo-900/30 backdrop-blur-xl'>
+    <div className='min-h-screen bg-linear-to-br from-slate-900 via-indigo-950 to-fuchsia-900 px-4 py-10'>
+      <div className='mx-auto w-full max-w-3xl rounded-4xl border border-white/10 bg-white/95 p-8 shadow-2xl shadow-indigo-900/30 backdrop-blur-xl'>
         <div className='mb-6 space-y-3 text-center'>
           <p className='text-sm uppercase tracking-[0.24em] text-indigo-600'>Daily productivity</p>
           <h1 className='text-4xl font-semibold text-slate-900 sm:text-5xl'>Beautiful Todo App</h1>
@@ -141,7 +141,7 @@ const App = () => {
                     />
 
                     <span
-                      className='min-w-0 break-words text-slate-900'
+                      className='min-w-0 wrap-break-words text-slate-900'
                       style={{
                         textDecoration: todo.completed ? 'line-through' : 'none',
                       }}
